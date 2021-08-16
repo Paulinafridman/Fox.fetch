@@ -23,3 +23,22 @@ body{
     text-align: center;
     margin-bottom: 12px;
 }
+
+button{
+    margin-top: 16px;
+    padding: 8px 12px;
+    border: 0;
+    background: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:hover{
+    background: #FF7600;
+    color: #fff;
+    box-shadow: 0 0 8px;
+        rgba(255, 0, 98, 0.5);
+}
