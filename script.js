@@ -12,3 +12,9 @@ foximage = async () => {
         });
 }
 foximage();
+
+window.addEventListener('load',
+function detectarWifi(){
+    let estado = this.navigator.onLine ? "Estas conectadx al wifi" : "No esta conectadx al wifi"
+    document.querySelector("#Estado").innerHTML = estado
+})
