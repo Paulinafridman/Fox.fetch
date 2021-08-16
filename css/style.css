@@ -24,6 +24,13 @@ body{
     margin-bottom: 12px;
 }
 
+.image{
+    width: 100%;
+}
+
+.fox{
+    font-size:20px;
+}
 button{
     margin-top: 16px;
     padding: 8px 12px;
